@@ -5,3 +5,13 @@
  .navbar{
     background-color: #BA0C2F;
  }
+ .popup-btn {
+   display: block;
+   margin: 8px 0 0 0;
+   padding: 4px 8px;
+   font-size: 12px;
+   text-align: left;
+}
+
+
+

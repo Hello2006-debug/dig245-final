@@ -22,502 +22,172 @@ L.control.layers(baseMaps).addTo(map);
 
 // GeoJSON data
 var geojsonData = {
-    "type": "FeatureCollection",
-    "features": [
-        {
-            "type": "Feature",
-            "properties": {
-                    "name": "Summit Cafe",
-                    "category": "Student Insight",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.84904953713487,
-                35.49839581269937
-              ],
-              "type": "Point"
-            },
-          },
-          {
-            "type": "Feature",
-            "properties": {
-                    "name": "Masala Mastee",
-                    "category": "Student Insight",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.84876734685803,
-                35.499267735502585
-              ],
-              "type": "Point"
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-                    "name": "Ben's and Jerry",
-                    "category": "Student Insight",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.84919586058734,
-                35.49807148841873
-              ],
-              "type": "Point"
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-                    "name": "Town Cinema",
-                    "category": "Student Insight",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.84932184495105,
-                35.50177537422101
-              ],
-              "type": "Point"
-            }
-          },
-          {
-            "type": "Feature",
+  "type": "FeatureCollection",
+  "features": [
+      {
+          "type": "Feature",
           "properties": {
-                    "name": "unknown",
-                    "category": "Athletic Venue",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.84838955398988,
-                35.50051313982517
-              ],
-              "type": "Point"
-            }
+              "name": "T&I OFFICE",
+              "category": "Academic",
+              "image": "../assets/img/Chambers.jpg",
+              "description": "The Technology & Innovation Office supports academic projects and provides IT infrastructure for students and staff."
           },
-          {
-            "type": "Feature",
-          "properties": {
-                    "name": "T&I OFFICE",
-                    "category": "Academic",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.84838955398988,
-                35.50051313982517
-              ],
+          "geometry": {
+              "coordinates": [-80.84838955398988, 35.50051313982517],
               "type": "Point"
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-                    "name": "College Store",
-                    "category": "Student Insight",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.8484269203176,
-                35.50007916192027
-              ],
-              "type": "Point"
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-                    "name": "Admission and Financial Aid",
-                    "category": "Administration",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.84765020276677,
-                35.50223211745812
-              ],
-              "type": "Point"
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-                    "name": "Unknown",
-                    "category": "Athletic Venue",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.83704807446932,
-                35.50486229451275
-              ],
-              "type": "Point"
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-                    "name": "Duke Hall family Performance",
-                    "category": "Performance and Event",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.8423861512414,
-                35.50064181681957
-              ],
-              "type": "Point"
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-                    "name": "Dean Rusk and Education Abroud",
-                    "category": "Administration",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.84346175888156,
-                35.50070297259653
-              ],
-              "type": "Point"
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-                    "name": "Davis Cafe",
-                    "category": "Dining Facility",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.84213990933878,
-                35.50052632730852
-              ],
-              "type": "Point"
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-                    "name": "Wall center",
-                    "category": "Academic",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.84482223107776,
-                35.49884936070556
-              ],
-              "type": "Point"
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-                    "name": "Libs",
-                    "category": "Academic",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.84398674911898,
-                35.49970011790094
-              ],
-              "type": "Point"
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-                    "name": "Chambers",
-                    "category": "Academic",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.84528618248194,
-                35.499909162316385
-              ],
-              "type": "Point"
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-                    "name": "Richardson Stadium",
-                    "category": "Athletic Venue",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.84296743312768,
-                35.499541750556574
-              ],
-              "type": "Point"
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-                    "name": "Watts/Wattson",
-                    "category": "Academic",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.84666771129346,
-                35.49951515204636
-              ],
-              "type": "Point"
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-                    "name": "Tyler Taliman Hall",
-                    "category": "Academic",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.8460982939033,
-                35.49926972996589
-              ],
-              "type": "Point"
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-                    "name": "Bakers Sports Complex",
-                    "category": "Athletic Venue",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.84047628642341,
-                35.49928391494693
-              ],
-              "type": "Point"
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-                    "name": "Canon Residence",
-                    "category": "Residence Hall",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.84449743497913,
-                35.50106250326961
-              ],
-              "type": "Point"
-            }
-          } ,
-          {
-            "type": "Feature",
-            "properties": {
-                    "name": "Watts residence",
-                    "category": "Residence Hall",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.84535156106476,
-                35.50132155410607
-              ],
-              "type": "Point"
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-                    "name": "Belk Residence",
-                    "category": "Residence Hall",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.8446900320375,
-                35.50170331171036
-              ],
-              "type": "Point"
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-                    "name": "Vail Commons",
-                    "category": "Dining Facility",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.84397826048303,
-                35.50249408612011
-              ],
-              "type": "Point"
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-                    "name": "Richardson residence Hall",
-                    "category": "Residence Hall",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.84472352736154,
-                35.50250772015215
-              ],
-              "type": "Point"
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-                    "name": "Tomlison Residence",
-                    "category": "Residence Hall",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.84514221661915,
-                35.502998543775945
-              ],
-              "type": "Point"
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-                    "name": "Student Health Center",
-                    "category": "Student Life",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.84612194612994,
-                35.50333257414785
-              ],
-              "type": "Point"
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-                    "name": "College Relations",
-                    "category": "Administration",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.84653226160212,
-                35.5027326806952
-              ],
-              "type": "Point"
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-                    "name": "ArmField Residence",
-                    "category": "Residence Hall",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.84002958569572,
-                35.50161984772774
-              ],
-              "type": "Point"
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-                    "name": "Jamieson Residence",
-                    "category": "Residence Hall",
-                    "description": "The main athletic arena hosting basketball and volleyball games.",
-                    "resources": "Fitness facilities, locker rooms, seating for 5,000.",
-                },
-            "geometry": {
-              "coordinates": [
-                -80.84005377894294,
-                35.50256134489355
-              ],
-              "type": "Point"
-            }
           }
-    ]
-  };
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Admission and Financial Aid",
+              "category": "Administration",
+              "image": "../assets/img/pool.jpg",
+              "description": "This office handles applications, admissions counseling, and financial aid inquiries."
+          },
+          "geometry": {
+              "coordinates": [-80.84765020276677, 35.50223211745812],
+              "type": "Point"
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Duke Hall Family Performance",
+              "category": "Performance and Event",
+              "image": "../assets/img/union.jpeg",
+              "description": "A venue for performances, lectures, and campus-wide events."
+          },
+          "geometry": {
+              "coordinates": [-80.8423861512414, 35.50064181681957],
+              "type": "Point"
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Davis Cafe",
+              "category": "Dining Facility",
+              "image": "../assets/img/common.jpg",
+              "description": "A cozy cafe offering a variety of snacks and beverages for students."
+          },
+          "geometry": {
+              "coordinates": [-80.84213990933878, 35.50052632730852],
+              "type": "Point"
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Richardson Stadium",
+              "category": "Athletic Venue",
+              "image": "../assets/img/bakers.jpeg",
+              "description": "The home of Davidson College Wildcats' football and track & field teams."
+          },
+          "geometry": {
+              "coordinates": [-80.84296743312768, 35.499541750556574],
+              "type": "Point"
+          }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+                "name": "Belk Residence",
+                "category": "Residence Hall",
+                "image": "../assets/img/bakers.jpeg",
+                "description": "Building that serves as a dormitory for mostly freshmen"
+            },
+        "geometry": {
+          "coordinates": [
+            -80.8446900320375,
+            35.50170331171036
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+                "name": "Student Health Center",
+                "category": "Student Life",
+                "image": "../assets/img/bakers.jpeg",
+                "description": "Student designed medical center incase of medical requirement"
+                
+            },
+        "geometry": {
+          "coordinates": [
+            -80.84612194612994,
+            35.50333257414785
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+                "name": "College Store",
+                "category": "Student Insight",
+                "image": "../assets/img/bakers.jpeg",
+                "description": "College store with college merch for most sports for students and other outsiders"
+            },
+        "geometry": {
+          "coordinates": [
+            -80.8484269203176,
+            35.50007916192027
+          ],
+          "type": "Point"
+        }
+      }
+  ]
+};
 
 var markersLayer = L.layerGroup().addTo(map);
+const offcanvasTitle = document.querySelector('#offcanvasExample1 .offcanvas-title');
+const offcanvasBody = document.querySelector('#offcanvasExample1 .offcanvas-body');
+
 function addMarkers(data) {
-    data.features.forEach(function (feature) {
-      var marker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]])
-        .bindPopup(
-          "<strong>" + feature.properties.name + "</strong><br>" +
-          "Category: " + feature.properties.category + "<br>" +
-          "Description: " + feature.properties.description + "<br>" +
-          "Resources: " + feature.properties.resources + "<br>" 
-        );
-      markersLayer.addLayer(marker);
-    }); 
+  data.features.forEach(function (feature, i) {
+    var marker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]])
+      .bindPopup(
+        `<strong>${feature.properties.name}</strong><br>` +
+        `Category: ${feature.properties.category}<br>` +
+        `<img src="${feature.properties.image}" alt="${feature.properties.name}" style="width:100%; height:auto; margin-bottom:8px;"><br>` +
+        `<button class="btn btn-danger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample1" onclick="showMoreInfo(${i})">More Info</button>`
+      );
+    markersLayer.addLayer(marker);
+  });
+}
+
+function showMoreInfo(i) {
+  const feature = geojsonData.features[i];
+  if (!feature) {
+      console.error("Feature not found for index:", i);
+      return;
   }
+  offcanvasTitle.textContent = feature.properties.name;
+  offcanvasBody.innerHTML = `
+      <p><strong>Category:</strong> ${feature.properties.category}</p>
+      <p>${feature.properties.description}</p>
+      <div class="d-flex flex-wrap gap-2">
+          <img src="${feature.properties.image}" alt="${feature.properties.name}" class="img-fluid" style="width:48%; border-radius: 5px;">
+      </div>
+  `;
+}
+
 
 addMarkers(geojsonData);
 function filterMarkers(category) {
-    markersLayer.clearLayers();
-    var filteredData = geojsonData.features.filter(function (feature) {
-      return category === "all" || feature.properties.category === category;
-    });
-    addMarkers({ type: "FeatureCollection", features: filteredData });
-  }
-
-  var dropdownItems = document.querySelectorAll('.dropdown-item');
-  dropdownItems.forEach(function (item) {
-    item.addEventListener('click', function (event) {
-      var selectedCategory = event.target.getAttribute('data-category');
-      filterMarkers(selectedCategory);
-    });
+  markersLayer.clearLayers();
+  var filteredData = geojsonData.features.filter(function (feature) {
+    return category === "all" || feature.properties.category === category;
   });
+  addMarkers({ type: "FeatureCollection", features: filteredData });
+}
+
+var dropdownItems = document.querySelectorAll('.dropdown-item');
+dropdownItems.forEach(function (item) {
+  item.addEventListener('click', function (event) {
+    var selectedCategory = event.target.getAttribute('data-category');
+    filterMarkers(selectedCategory);
+  });
+});
