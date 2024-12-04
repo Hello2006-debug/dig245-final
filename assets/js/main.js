@@ -29,7 +29,7 @@ var geojsonData = {
           "properties": {
               "name": "T&I OFFICE",
               "category": "Academic",
-              "image": "../assets/img/Chambers.jpg",
+              "image": "assets/img/Chambers.jpg",
               "description": "The Technology & Innovation Office supports academic projects and provides IT infrastructure for students and staff."
           },
           "geometry": {
@@ -42,7 +42,7 @@ var geojsonData = {
           "properties": {
               "name": "Admission and Financial Aid",
               "category": "Administration",
-              "image": "../assets/img/pool.jpg",
+              "image": "assets/img/pool.jpg",
               "description": "This office handles applications, admissions counseling, and financial aid inquiries."
           },
           "geometry": {
@@ -55,7 +55,7 @@ var geojsonData = {
           "properties": {
               "name": "Duke Hall Family Performance",
               "category": "Performance and Event",
-              "image": "../assets/img/union.jpeg",
+              "image": "assets/img/union.jpeg",
               "description": "A venue for performances, lectures, and campus-wide events."
           },
           "geometry": {
@@ -68,7 +68,7 @@ var geojsonData = {
           "properties": {
               "name": "Davis Cafe",
               "category": "Dining Facility",
-              "image": "../assets/img/common.jpg",
+              "image": "assets/img/common.jpg",
               "description": "A cozy cafe offering a variety of snacks and beverages for students."
           },
           "geometry": {
@@ -81,7 +81,7 @@ var geojsonData = {
           "properties": {
               "name": "Richardson Stadium",
               "category": "Athletic Venue",
-              "image": "../assets/img/bakers.jpeg",
+              "image": "assets/img/bakers.jpeg",
               "description": "The home of Davidson College Wildcats' football and track & field teams."
           },
           "geometry": {
@@ -94,7 +94,7 @@ var geojsonData = {
         "properties": {
                 "name": "Belk Residence",
                 "category": "Residence Hall",
-                "image": "../assets/img/bakers.jpeg",
+                "image": "assets/img/bakers.jpeg",
                 "description": "Building that serves as a dormitory for mostly freshmen"
             },
         "geometry": {
@@ -110,7 +110,7 @@ var geojsonData = {
         "properties": {
                 "name": "Student Health Center",
                 "category": "Student Life",
-                "image": "../assets/img/bakers.jpeg",
+                "image": "assets/img/bakers.jpeg",
                 "description": "Student designed medical center incase of medical requirement"
                 
             },
@@ -127,7 +127,7 @@ var geojsonData = {
         "properties": {
                 "name": "College Store",
                 "category": "Student Insight",
-                "image": "../assets/img/bakers.jpeg",
+                "image": "assets/img/bakers.jpeg",
                 "description": "College store with college merch for most sports for students and other outsiders"
             },
         "geometry": {
